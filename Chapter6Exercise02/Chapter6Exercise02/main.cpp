@@ -9,7 +9,7 @@
 #include <iostream>
 
 using namespace std;
-void changeArgument (int & x)
+void changeArgument (int & x)// using & will change the x value. whiout &, the value of x will not change
 {
     x = x + 5;
 }
