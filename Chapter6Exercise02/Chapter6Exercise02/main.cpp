@@ -9,7 +9,7 @@
 #include <iostream>
 
 using namespace std;
-void changeArgument (int x)
+void changeArgument (int & x)
 {
     x = x + 5;
 }
