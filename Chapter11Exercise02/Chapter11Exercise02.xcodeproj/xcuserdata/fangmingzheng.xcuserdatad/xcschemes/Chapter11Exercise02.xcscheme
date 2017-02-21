@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E1E10F41E5BC1E800970EA8"
-               BuildableName = "Chapter10Exercise03"
-               BlueprintName = "Chapter10Exercise03"
-               ReferencedContainer = "container:Chapter10Exercise03.xcodeproj">
+               BlueprintIdentifier = "9E471E331E5CD5D000E45C80"
+               BuildableName = "Chapter11Exercise02"
+               BlueprintName = "Chapter11Exercise02"
+               ReferencedContainer = "container:Chapter11Exercise02.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E1E10F41E5BC1E800970EA8"
-            BuildableName = "Chapter10Exercise03"
-            BlueprintName = "Chapter10Exercise03"
-            ReferencedContainer = "container:Chapter10Exercise03.xcodeproj">
+            BlueprintIdentifier = "9E471E331E5CD5D000E45C80"
+            BuildableName = "Chapter11Exercise02"
+            BlueprintName = "Chapter11Exercise02"
+            ReferencedContainer = "container:Chapter11Exercise02.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,22 +55,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E1E10F41E5BC1E800970EA8"
-            BuildableName = "Chapter10Exercise03"
-            BlueprintName = "Chapter10Exercise03"
-            ReferencedContainer = "container:Chapter10Exercise03.xcodeproj">
+            BlueprintIdentifier = "9E471E331E5CD5D000E45C80"
+            BuildableName = "Chapter11Exercise02"
+            BlueprintName = "Chapter11Exercise02"
+            ReferencedContainer = "container:Chapter11Exercise02.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = ""
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = ""
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -84,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E1E10F41E5BC1E800970EA8"
-            BuildableName = "Chapter10Exercise03"
-            BlueprintName = "Chapter10Exercise03"
-            ReferencedContainer = "container:Chapter10Exercise03.xcodeproj">
+            BlueprintIdentifier = "9E471E331E5CD5D000E45C80"
+            BuildableName = "Chapter11Exercise02"
+            BlueprintName = "Chapter11Exercise02"
+            ReferencedContainer = "container:Chapter11Exercise02.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -14,7 +14,7 @@ int main()
 {
     int num, Ldigit, Rdigit;
     string ones [] = {"zero", "one", "two","three","four", "five", "six", "seven", "eight", "nine" , "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen" };
-    string tens [] = {"twenty", "thrity", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety"};
+    string tens [] = {"twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety"};
     
     cout << "Enter a number from 1 to 99: " << std::endl;
     cin >> num;
@@ -30,8 +30,8 @@ int main()
     else if (num >= 20)
     {
         Rdigit = num % 10;
-        Ldigit = num / 100;
-        cout << "the number you entered is : " << tens [Ldigit] << ones [Rdigit];
+        Ldigit = num / 10;
+        cout << "the number you entered is : " << tens [Ldigit -2 ] << ones [Rdigit] << std::endl;
         
     }
     
