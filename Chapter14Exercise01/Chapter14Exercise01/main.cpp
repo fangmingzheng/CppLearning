@@ -11,20 +11,20 @@
 using namespace std;
 
 
-void selectionSort (int *array, int size, bool (*comparisonFcn)(int, int))
+void selectionSort (int *array, int size, bool (*comparisonFcn)(int, int)) //user defined comparison is the third element.
 {
     for (int startIndex = 0; startIndex < size; ++startIndex)
     {
-        int bestIndex = startIndex;
+        int bestIndex = startIndex; //bestIndext is the index of smallest or largest element inside the array.
         
         for (int currentIndex = startIndex + 1; currentIndex < size; ++currentIndex)
         {
-            if (comparisonFcn (array[bestIndex], array[startIndex]))
+            if (comparisonFcn (array[bestIndex], array[startIndex])) //comparision finished here.
             
                 bestIndex = currentIndex;
             
         }
-        std::swap(array[startIndex], array[bestIndex]);
+        std::swap(array[startIndex], array[bestIndex]); // swap the start element with the smallest or the largest element. 
             
     
         
