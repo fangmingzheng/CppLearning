@@ -4,10 +4,11 @@
 //
 //  Created by Fangming Zheng on 2/22/17.
 //  Copyright © 2017 Fangming Zheng. All rights reserved.
-//
+
+
 
 #include <iostream>
-#include <utility>
+#include <algorithm>
 using namespace std;
 
 
@@ -19,16 +20,19 @@ void selectionSort (int *array, int size, bool (*comparisonFcn)(int, int)) //use
         
         for (int currentIndex = startIndex + 1; currentIndex < size; ++currentIndex)
         {
-            if (comparisonFcn (array[bestIndex], array[startIndex])) //comparision finished here.
+            if (comparisonFcn(array[bestIndex], array[currentIndex])) //comparision finished here.
             
+            {
                 bestIndex = currentIndex;
+            }
             
         }
-        std::swap(array[startIndex], array[bestIndex]); // swap the start element with the smallest or the largest element. 
+        // swap the start element with the smallest or the largest element.
             
-    
+            std::swap(array[startIndex], array[bestIndex]);
         
     }
+    
 }
 
 bool ascending (int x, int y)
@@ -41,13 +45,17 @@ bool descending (int x, int y)
     return x < y;
 }
 
-void printArray (int *array, int size)
-{
+
+void printArray( int *array, int size)
+ {
     for (int index = 0; index < size; ++index)
     {
-        std::cout << array[index] << " " << std::endl;
+        std::cout << array[index] << " ";
     }
-}
+ std::cout << '\n';
+ 
+ }
+
 
 int main()
 {
@@ -59,3 +67,4 @@ int main()
     
     return 0;
 }
+
