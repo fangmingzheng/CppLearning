@@ -8,8 +8,19 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+void printNum(int num)
+{
+    cout << num;
+    if (num < 9 )
+    {
+        printNum (num + 1);
+    }
+    cout << num;
+}
+
+int main ()
+{
+    printNum(1);
     return 0;
 }
