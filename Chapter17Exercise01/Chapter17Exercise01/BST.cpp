@@ -1,4 +1,4 @@
-//
+ //
 //  BST.cpp
 //  Chapter17Exercise01
 //
@@ -96,5 +96,61 @@ void BST::PrintInOrderPrivate(node* Ptr)
        cout << " The tree is empty" << endl;
    }
 }
+BST::node* BST:: ReturnNode(int key)
+{
+    return ReturnNodePrivate(key, root);
+}
 
+BST::node* BST::ReturnNodePrivate (int key, node* Ptr)
+{
+   if(Ptr != NULL)
+   {
+       if(Ptr->key == key)
+       {
+           return Ptr;
+       }
+       else
+       {
+           if(key < Ptr->key)
+           {
+               return ReturnNodePrivate (key, Ptr->left);
+           }
+           else
+           {
+               return ReturnNodePrivate (key, Ptr->right);
+           }
+       }
+   }
+   else{
+       return NULL;
+   }
+}
+int BST::ReturnRootKey()
+{
+    if(root!= NULL)
+    {
+        return root->key;
+    }
+    else{
+        return -1000;
+    }
+}
+void BST::PrintChildren(int key)
+{
+    node* Ptr = ReturnNode(key);
+    if (Ptr != NULL)
+    {
+        cout << "Parent Node = " << Ptr->key << endl;
+        Ptr->left == NULL?
+        cout << "Left Child = NULL\n":
+        cout << "Left Child = " << Ptr->right->key << endl;
+        
+        Ptr->right == NULL?
+        cout << "Right Child = NULL\n":
+        cout << "Right Child = " << Ptr->right->key << endl;
+    }
+    else{
+        cout << "Key " << key  << " is not ine tree\n";
+    }
+}
 

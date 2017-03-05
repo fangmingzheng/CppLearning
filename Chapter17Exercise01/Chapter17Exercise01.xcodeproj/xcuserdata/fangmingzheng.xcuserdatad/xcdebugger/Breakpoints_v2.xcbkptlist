@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Chapter17Exercise01/BST.cpp"
-            timestampString = "510179098.544736"
+            timestampString = "510199042.406927"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "BST::CreatLeaf(int key)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Chapter17Exercise01/BST.cpp"
-            timestampString = "510180473.121768"
+            timestampString = "510199042.406927"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "BST::AddLeafPrivate(int key, node* Ptr)"
             landmarkType = "7">
          </BreakpointContent>

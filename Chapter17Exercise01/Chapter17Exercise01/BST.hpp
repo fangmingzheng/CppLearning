@@ -20,18 +20,21 @@ private:
         node* left;
         node* right;
     };
-    
+    node* CreatLeaf (int key);
     node* root;
     void AddLeafPrivate(int key, node* Ptr);
     void PrintInOrderPrivate(node* Ptr);
+    node* ReturnNode(int key);
+    node* ReturnNodePrivate (int key, node* Ptr);
     
 public:
     
     BST();
-    node* CreatLeaf (int key);
+    
     void AddLeaf (int key);
     void PrintInOrder();
-    
+    int ReturnRootKey();
+    void PrintChildren(int key);
 };
 
 #endif /* BST_hpp */
