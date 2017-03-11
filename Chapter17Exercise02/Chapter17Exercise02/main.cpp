@@ -43,20 +43,25 @@ BstNode* Insert (BstNode* root, int data)
      }
 }
 
-bool Search(BstNode* root, int data){
+bool Search(BstNode* root, int data)
+{
     if(root == NULL)
-    {
-       return false;
+    {return NULL;
     }
+    
     else if(data <= root->data)
     {
-       Search(root->left, data);
+    Search(root->left, data);
     }
+    
     else if(data > root->data)
     {
         Search (root->right, data);
     }
-    return 0;
+    else
+    {
+    return true;
+    }
 }
 
 int main()
